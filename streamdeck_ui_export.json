@@ -7,156 +7,198 @@
                     "0": {
                         "write": "",
                         "command": "awm-tag-show 1",
-                        "text": "1",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/31-20e3.svg"
                     },
                     "1": {
                         "command": "awm-tag-show 2",
                         "write": "",
-                        "text": "2",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/32-20e3.svg"
                     },
                     "2": {
                         "command": "awm-tag-show 3",
                         "write": "",
-                        "text": "3",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/33-20e3.svg"
                     },
                     "3": {
                         "command": "awm-tag-show 4",
                         "write": "",
-                        "text": "4",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/34-20e3.svg"
                     },
                     "4": {
                         "command": "awm-tag-show 5",
                         "write": "",
-                        "text": "5",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/35-20e3.svg"
                     },
                     "5": {
                         "command": "awm-tag-show 6",
                         "write": "",
-                        "text": "6",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/36-20e3.svg"
                     },
                     "6": {
                         "command": "awm-tag-show 7",
                         "write": "",
-                        "text": "7",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/37-20e3.svg"
                     },
                     "7": {
                         "command": "awm-tag-show 8",
                         "write": "",
-                        "text": "8",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/38-20e3.svg"
                     },
                     "8": {
                         "write": "",
                         "text": "Toggle Tag...",
-                        "text_vertical_align": "middle-top",
+                        "text_vertical_align": "middle",
                         "switch_page": 2
                     },
                     "9": {
-                        "write": ""
+                        "write": "",
+                        "text": "GMail Archive",
+                        "keys": "x,e",
+                        "text_vertical_align": "middle"
                     },
                     "10": {},
                     "11": {
-                        "command": "polly-say-clipboard",
-                        "text": "Say!",
+                        "command": "tmux -c polly-say-clipboard",
+                        "text": "",
                         "text_vertical_align": "",
                         "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/1f99c.svg"
                     },
                     "12": {
-                        "command": "",
+                        "command": "kasa --host 192.168.68.59 --bulb on",
                         "write": "",
-                        "text": ""
+                        "text": "On",
+                        "text_vertical_align": "middle-top"
                     },
-                    "13": {},
+                    "13": {
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/25b6.svg"
+                    },
                     "14": {
-                        "command": "xdotool key ctrl+super+space",
-                        "text": "Float",
-                        "text_vertical_align": "top"
+                        "write": "",
+                        "keys": "",
+                        "text": "",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/23f8.svg"
                     },
                     "15": {
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/23e9.svg"
+                    },
+                    "16": {
+                        "keys": "",
+                        "write": "Jenkins, test this, please.",
+                        "text": "Jenkins, test!",
+                        "text_vertical_align": "middle"
+                    },
+                    "17": {
+                        "text": "GMail Delete!",
+                        "keys": "-,x,#",
+                        "text_vertical_align": "middle"
+                    },
+                    "18": {
+                        "keys": "x,-,m",
+                        "text": "Gmail Mute!",
+                        "text_vertical_align": "middle"
+                    },
+                    "19": {},
+                    "20": {
+                        "command": "kasa --host 192.168.68.59 --bulb off",
+                        "text": "Off",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "21": {
                         "write": "",
                         "command": "xdotool key super+f",
-                        "text": "Full Screen",
+                        "text": "",
                         "keys": "",
                         "text_vertical_align": "top",
-                        "icon": "/home/jarpy/Downloads/resources-blobs-icon/PNG/64/blob icon/bigger/Group 287.svg.png"
-                    },
-                    "16": {},
-                    "17": {},
-                    "18": {},
-                    "19": {},
-                    "20": {},
-                    "21": {
-                        "keys": "",
-                        "write": "",
-                        "text": ""
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/2194.svg"
                     },
                     "22": {
-                        "write": "",
-                        "keys": "",
-                        "text": ""
+                        "command": "xdotool key ctrl+super+space",
+                        "text": "",
+                        "text_vertical_align": "top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/2708.svg"
                     },
                     "23": {
                         "command": "xdotool key super+shift+c",
                         "write": "",
-                        "text": "Kill Client",
+                        "text": "",
                         "keys": "",
                         "text_vertical_align": "top",
-                        "icon": "/home/jarpy/Downloads/resources-blobs-icon/PNG/64/blob icon/bigger/Group 216.svg.png"
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/1f6d1.svg"
                     },
                     "24": {
                         "write": "",
                         "command": "awm-tag-show-secondary-screen 1",
-                        "text": "1",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/31-20e3.svg"
                     },
                     "25": {
                         "command": "awm-tag-show-secondary-screen 2",
                         "write": "",
-                        "text": "2",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/32-20e3.svg"
                     },
                     "26": {
                         "command": "awm-tag-show-secondary-screen 3",
                         "write": "",
-                        "text": "3",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/33-20e3.svg"
                     },
                     "27": {
                         "command": "awm-tag-show-secondary-screen 4",
                         "write": "",
-                        "text": "4",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/34-20e3.svg"
                     },
                     "28": {
                         "command": "awm-tag-show-secondary-screen 5",
                         "write": "",
-                        "text": "5",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/35-20e3.svg"
                     },
                     "29": {
                         "command": "awm-tag-show-secondary-screen 6",
                         "write": "",
-                        "text": "6",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/36-20e3.svg"
                     },
                     "30": {
                         "command": "awm-tag-show-secondary-screen 7",
                         "write": "",
-                        "text": "7",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/37-20e3.svg"
                     },
                     "31": {
                         "command": "awm-tag-show-secondary-screen 8",
                         "write": "",
-                        "text": "8",
-                        "text_vertical_align": "middle-top"
+                        "text": "",
+                        "text_vertical_align": "middle-top",
+                        "icon": "/home/jarpy/src/jarpy/streamdeck-config/images/twemoji-14.0.2/assets/svg/38-20e3.svg"
                     }
                 },
                 "1": {
